@@ -1,4 +1,4 @@
-# Learning Webpack 2: JS Modules and Plugins
+# Webpack JS Modules
 
 This project is a hands-on exploration of Webpack 2, focusing on understanding JavaScript modules, configuring Webpack, and utilizing plugins for efficient build processes. The goal is to build a foundation for working with modern web development tools and techniques.
 
@@ -29,8 +29,8 @@ To follow this project, you need:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/learning-webpack.git
-   cd learning-webpack
+   git clone https://github.com/guillermo-segura/webpack-js-modules.git
+   cd webpack-js-modules
    ```
 
 2. Install dependencies:
@@ -47,8 +47,10 @@ To follow this project, you need:
 
 ```plaintext
 learning-webpack/
-├── src/               # Source files (JavaScript, CSS, etc.)
+├── src/               # Source files (JavaScript, etc.)
 ├── build/             # Output directory for bundled files
+├── assets/            # Image files
+├── styles/            # CSS files
 ├── webpack.config.js  # Webpack configuration
 ├── package.json       # Project dependencies and scripts
 └── README.md          # Project documentation
